@@ -4,7 +4,7 @@
     padding: 0;
 }
 :root{
-    --accent-color: #31de79;
+    --accent-color: #e31788;
     --white: #fff;
     --black: #000;
 }
@@ -114,9 +114,12 @@ a{
 .fa-bars{
     font-size: 20px;
 }
+.content-img{
+    display: flex;
+}
 .intro-left{
     margin-top: 6rem;
-    width: 60%;
+    /* width: 60%; */
 }
 .intro-left h1{
     font-size: 40px;
@@ -247,6 +250,9 @@ a{
     }
     .sign{
        margin-right: 0; 
+    }
+    .intro-left h1{
+        font-size: 80px;
     }
 
     /* services */
